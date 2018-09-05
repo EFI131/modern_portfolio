@@ -1,16 +1,5 @@
-$primary-color: #444;
-$secondary-color: #eece1a;
-$show-home-image: true;
-$home-image: url(../img/background.jpg);
-$background-opacity: 0.9;
-
-@mixin easeOut {
-    transition: all 1.5s ease-out;
-}
-
-@mixin background {
-    @if $show-home-image {}
-}
+@import 'config';
+@import 'menu';
 
 * {
     box-sizing: border-box;
